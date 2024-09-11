@@ -1,6 +1,4 @@
-version: '3.9'
-
-# Services
+  # Services
 services:
  # PHP FPM Service
   php:
@@ -23,13 +21,12 @@ services:
       - php
   # MariaDB Service
   mariadb:
-    image: mariadb:latest
-    #image: mysql:latest
+    image: mysql:latest
     environment:
       MYSQL_DATABASE: ${DB_SCHEMA_NAME}
       MYSQL_USER: ${DB_USER}
       MYSQL_PASSWORD: ${DB_PASSWORD}
-      MYSQL_ROOT_PASSWORD: 
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
     ports:
       - 3308:3306
 
