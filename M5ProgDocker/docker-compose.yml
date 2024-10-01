@@ -1,4 +1,4 @@
-  # Services
+# Services
 services:
  # PHP FPM Service
   php:
