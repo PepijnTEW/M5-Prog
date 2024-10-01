@@ -1,0 +1,5 @@
+Bedrijf: Raffel Internet B.V.
+Adres: Stadionstraat 30
+OpeningsTijden: 8:00 - 17:00
+
+Adres Id is er zodat we makkelijk kunnen zoeken in het database met de id omdat elk ding een aparte id heeft kan dit makkelijk opgezocht worden in websites of in een normale database
